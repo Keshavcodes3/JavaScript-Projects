@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>Pomodoro Timer</title>
+  </head>
+  <body class="bg-gray-200  flex items-center justify-center min-h-screen">
+    <div class=" w-80 shadow-[5px_5px_0px_0px_rgba(109,40,217)] p-6 rounded-lg shadow-lg text-center">
+      <h1 class="text-2xl font-bold text-gray-800 mb-4 ">Pomodoro Timer</h1>
+      <p id="timerDisplay" class="text-5xl font-mono text-gray-900 mb-6">25:00</p>
+      <div class="flex justify-center gap-4">
+        <button id="start" class="cursor-pointer px-4 py-2 bg-green-500 text-white rounded hover:bg-green-600 transition">Start</button>
+        <button id="stop" class="cursor-pointer px-4 py-2 bg-yellow-500 text-white rounded hover:bg-yellow-600 transition">Stop</button>
+        <button id="reset" class="cursor-pointer px-4 py-2 bg-red-500 text-white rounded hover:bg-red-600 transition">Reset</button>
+      </div>
+    </div>
+    <script src="./index.js"></script>
+  </body>
+</html>
