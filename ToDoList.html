@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dynamic List Manager - Tailwind</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="min-h-screen flex items-center justify-center bg-gray-100">
+  <div class="bg-white shadow-xl rounded-2xl p-6 w-full max-w-md">
+    <h2 class="text-2xl font-bold text-center text-blue-600 mb-4">📝 To-Do List</h2>
+    <div class="flex gap-2 mb-4">
+      <input id="taskInput" type="text" placeholder="Enter task..." class="flex-1 px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500">
+      <button id="addBtn" class="px-4 py-2 bg-blue-500 text-white font-semibold rounded-lg hover:bg-blue-600 transition">Add</button>
+    </div>
+    <ul id="taskList" class="space-y-2"></ul>
+  </div>
+  <script src="./Project-02.js"></script>
+</body>
+</html>
