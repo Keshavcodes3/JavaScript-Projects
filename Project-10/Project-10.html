@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bookmark Saver</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-gray-900 text-white flex flex-col items-center min-h-screen p-6">
+    <h1 class="text-3xl font-bold mb-6 text-blue-400">📑 Bookmark Saver</h1>
+
+    <!-- Form -->
+    <form
+      id="bookmarkForm"
+      class="flex flex-col gap-3 bg-gray-800 p-6 rounded-xl w-full max-w-md shadow-lg"
+    >
+      <input
+        id="titleInput"
+        type="text"
+        placeholder="Website title"
+        class="p-2 rounded bg-gray-700 focus:outline-none"
+      />
+      <input
+        id="urlInput"
+        type="url"
+        placeholder="Website URL (https://...)"
+        class="p-2 rounded bg-gray-700 focus:outline-none"
+      />
+      <button
+        class="bg-blue-600 hover:bg-blue-700 transition rounded p-2 font-semibold"
+      >
+        Add Bookmark
+      </button>
+    </form>
+
+    <!-- Bookmarks Container -->
+    <div
+      id="bookmarkContainer"
+      class="mt-8 grid gap-4 w-full max-w-md"
+    >
+      <!-- Cards will be added here dynamically -->
+    </div>
+    <script src="./Project-10.js"></script>
+  </body>
+</html>

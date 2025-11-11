@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Notes Board</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-gray-900 text-white flex flex-col items-center p-6 min-h-screen overflow-y-hidden">
+    <h1 class="text-3xl font-bold mb-6">📝 Persistent Notes Board</h1>
+
+    <form id="noteForm" class="flex gap-2 w-full max-w-md mb-6">
+      <input
+        id="noteInput"
+        type="text"
+        placeholder="Write a note..."
+        class="flex-1 p-2 rounded bg-gray-800 border border-gray-700 focus:outline-none"
+      />
+      <button 
+        class="bg-blue-600 hover:bg-blue-700 px-4 py-2 rounded font-semibold"
+        type="submit"
+      >
+        Add
+      </button>
+    </form>
+
+    <div id="notesContainer" class="grid gap-4 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 w-full max-w-4xl"></div>
+
+    <script src="./Project-09.js"></script>
+  </body>
+</html>
