@@ -48,7 +48,7 @@ function CreateCard(Type, data) {
 
 async function GetWeather(city) {
   try {
-    const APIKey = "2c538b9eff8602591dc36a2b211ed675";
+    const APIKey = "Your_API_KEY";
     const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${APIKey}&units=metric`;
     console.log(`URL: ${url}`);
 
