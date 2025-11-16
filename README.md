@@ -8,19 +8,6 @@ This repository tracks my daily grind, building real-world mini-apps without fra
 
 Each project is isolated with its own HTML, Tailwind (or minimal CSS), and JavaScript.
 
-Current Projects
-
-Project 11 — Weather App
-Real-time weather search using OpenWeather API, async fetch flow, Tailwind UI, recent city history with localStorage.
-
-Project 12 — [Add Name]
-Short description here.
-
-Project 13 — [Add Name]
-Short description here.
-
-Project 14 — [Add Name]
-Short description here.
 
 New projects are added regularly as part of my consistency and growth routine.
 
