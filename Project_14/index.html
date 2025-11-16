@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stylish Weather App</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="h-screen w-screen overflow-hidden delay-150">
+    <!-- Centered card -->
+    <div class="relative flex items-center justify-center h-screen">
+      <div
+        class="bg-white/30 backdrop-blur-md p-6 rounded-xl shadow-xl w-full max-w-md"
+      >
+        <h1 class="text-2xl font-bold mb-4 text-center">
+          Weather Event Suggester
+        </h1>
+        <input
+          id="cityInput"
+          type="text"
+          placeholder="Enter city"
+          class="w-full p-2 border rounded mb-4 focus:outline-none focus:ring-2 focus:ring-blue-400"
+        />
+        <button
+          id="getWeather"
+          class="w-full bg-blue-500 text-white p-2 rounded hover:bg-blue-600 transition"
+        >
+          Search
+        </button>
+        <p id="status" class="mt-4 text-center text-gray-700"></p>
+        <div id="weatherResult" class="mt-4"></div>
+        <div
+          id="Recent"
+          class="bg-white/90 backdrop-blur-md rounded-lg shadow-lg max-w-md mx-auto mt-6 p-4"
+        >
+        </div>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>

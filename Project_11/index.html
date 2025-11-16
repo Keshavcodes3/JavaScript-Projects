@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  </head>
+  <body class="transition: background-color 0.3s, color 0.3s">
+    <div class="flex flex-col justify-center items-center h-[100vh] w-[100vw]">
+      <h1 class="text-center mb-4 text-3xl text-red-400 font-bold">
+        Current Color Code:
+        <span
+          id="NameColor"
+          class="text-3xl text-blue-400 font-extrabold"
+        ></span>
+      </h1>
+      <button
+        class="cursor-pointer block px-4 py-3 shadow-lg rounded-md font-bold text-blue-400 mx-auto"
+      >
+        Change Color
+      </button>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
